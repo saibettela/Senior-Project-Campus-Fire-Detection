@@ -1,0 +1,65 @@
+======================================================================
+DATASET EXPLORATION SUMMARY REPORT
+Campus Fire Detection System
+======================================================================
+
+1. DATASET INFORMATION
+----------------------------------------------------------------------
+   Total samples: 62,630
+   Total features: 16
+   Dataset shape: (62630, 16)
+   Missing values: 0
+
+2. CLASS DISTRIBUTION
+----------------------------------------------------------------------
+   No Fire (0): 17,873 samples (28.54%)
+   Fire (1):    44,757 samples (71.46%)
+   Class balance: 2.50
+
+3. FEATURES USED IN MODEL
+----------------------------------------------------------------------
+   1. temperature     (SHT41)
+   2. humidity        (SHT41)
+   3. tvoc            (SGP41)
+   4. eco2            (SCD41)
+
+4. FEATURE STATISTICS
+----------------------------------------------------------------------
+   TEMPERATURE:
+      Mean:        15.97
+      Std:         14.36
+      Min:        -22.01
+      Max:         59.93
+
+   HUMIDITY:
+      Mean:        48.54
+      Std:          8.87
+      Min:         10.74
+      Max:         75.20
+
+   TVOC:
+      Mean:      1942.06
+      Std:       7811.59
+      Min:          0.00
+      Max:      60000.00
+
+   ECO2:
+      Mean:       670.02
+      Std:       1905.89
+      Min:        400.00
+      Max:      60000.00
+
+5. CORRELATION WITH FIRE ALARM
+----------------------------------------------------------------------
+   humidity       : +0.3998
+   eco2           : -0.0970
+   temperature    : -0.1639
+   tvoc           : -0.2147
+
+6. NEXT STEPS
+----------------------------------------------------------------------
+   ✅ Dataset exploration complete
+   → Run: 02_data_preprocessing.py
+   → Then: 03_train_basic_model.py
+
+======================================================================
