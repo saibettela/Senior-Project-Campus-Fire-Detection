@@ -1,0 +1,57 @@
+======================================================================
+DATA PREPROCESSING REPORT
+Campus Fire Detection System
+======================================================================
+
+1. DATASET SUMMARY
+----------------------------------------------------------------------
+   Training samples:   71,612
+   Testing samples:    12,526
+   Total samples:      84,138
+   Features:           4
+
+2. FEATURES
+----------------------------------------------------------------------
+   1. temperature
+   2. humidity
+   3. tvoc
+   4. eco2
+
+3. CLASS DISTRIBUTION (Training Set)
+----------------------------------------------------------------------
+   No Fire (0): 35,806 samples (50.00%)
+   Fire (1):    35,806 samples (50.00%)
+   ✅ SMOTE applied to balance classes
+
+4. NORMALIZATION PARAMETERS (MinMax [0,1])
+----------------------------------------------------------------------
+   temperature :  [-22.010000,  59.930000]
+   humidity    :  [ 10.740000,  75.200000]
+   tvoc        :  [  0.000000, 60000.000000]
+   eco2        :  [400.000000, 60000.000000]
+
+5. FIRMWARE INTEGRATION
+----------------------------------------------------------------------
+   ⚠️  CRITICAL: Copy scaler parameters to STM32 code!
+   File: scaler_parameters.json
+   Location: Dataset/processed/
+
+   C code example:
+   static const ScalerParams_t scaler = {
+       .temperature_min = -22.010000f,
+       .temperature_max = 59.930000f,
+       .humidity_min = 10.740000f,
+       .humidity_max = 75.200000f,
+       .tvoc_min = 0.000000f,
+       .tvoc_max = 60000.000000f,
+       .eco2_min = 400.000000f,
+       .eco2_max = 60000.000000f,
+   };
+
+6. NEXT STEPS
+----------------------------------------------------------------------
+   ✅ Data preprocessing complete
+   → Run: 03_train_basic_model.py
+   → Then: 05_export_onnx.py
+
+======================================================================

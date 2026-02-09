@@ -1,0 +1,24 @@
+{
+    "features": [
+        "temperature",
+        "humidity",
+        "tvoc",
+        "eco2"
+    ],
+    "min_values": [
+        -22.01,
+        10.74,
+        0.0,
+        400.0
+    ],
+    "max_values": [
+        59.93,
+        75.2,
+        60000.0,
+        60000.0
+    ],
+    "feature_range": [
+        0,
+        1
+    ]
+}
