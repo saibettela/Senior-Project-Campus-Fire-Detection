@@ -25,7 +25,7 @@ def load_dataset():
     
     # Path relative to project root (parent of model_training)
     _project_root = Path(__file__).resolve().parent.parent
-    data_path = _project_root / "Dataset" / "raw" / "smoke-detection-dataset" / "smoke_detection_iot.csv"
+    data_path = _project_root / "Dataset" / "raw" / "smoke_detection_iot.csv"
     
     if not data_path.exists():
         print(f"\n❌ ERROR: Dataset not found at {data_path}")
