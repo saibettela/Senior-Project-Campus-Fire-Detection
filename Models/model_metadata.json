@@ -1,0 +1,59 @@
+{
+    "model_type": "XGBoost Classifier",
+    "training_date": "2026-02-10T00:14:26.147314",
+    "hyperparameters": {
+        "max_depth": 6,
+        "learning_rate": 0.1,
+        "n_estimators": 100,
+        "objective": "binary:logistic",
+        "eval_metric": "logloss",
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "random_state": 42,
+        "use_label_encoder": false,
+        "verbosity": 1
+    },
+    "feature_names": [
+        "temperature",
+        "humidity",
+        "tvoc",
+        "eco2"
+    ],
+    "feature_importance": {
+        "temperature": 0.11821897327899933,
+        "humidity": 0.23863844573497772,
+        "tvoc": 0.5388267636299133,
+        "eco2": 0.104315847158432
+    },
+    "performance_metrics": {
+        "train": {
+            "accuracy": 0.9967323912193488,
+            "precision": 0.9955421821018612,
+            "recall": 0.9979333072669385,
+            "f1_score": 0.99673631063628
+        },
+        "test": {
+            "accuracy": 0.9957688008941402,
+            "precision": 0.9969839142091153,
+            "recall": 0.9970952966149034,
+            "f1_score": 0.9970396023012903,
+            "false_alarm_rate": 0.7552447552447552,
+            "roc_auc": 0.9999140932801976
+        },
+        "confusion_matrix": {
+            "tn": 3548,
+            "fp": 27,
+            "fn": 26,
+            "tp": 8925
+        },
+        "requirements": {
+            "DR-06_accuracy_pass": true,
+            "DR-05_false_alarm_pass": true
+        }
+    },
+    "training_time_seconds": 1.455511,
+    "model_files": {
+        "pickle": "/mnt/c/Users/saibe/OneDrive/Documents/GitHub/Senior-Project-Campus-Fire-Detection/Models/fire_detection_xgboost.pkl",
+        "xgboost": "/mnt/c/Users/saibe/OneDrive/Documents/GitHub/Senior-Project-Campus-Fire-Detection/Models/fire_detection_xgboost.json"
+    }
+}

@@ -96,7 +96,8 @@ def analyze_target(df):
     plt.tight_layout()
     results_dir = Path("results")
     results_dir.mkdir(exist_ok=True)
-    plt.savefig(results_dir / "01_target_distribution.png", dpi=300, bbox_inches='tight')
+    project_root = Path(__file__).resolve().parent.parent
+    plt.savefig(project_root / results_dir / "01_target_distribution.png", dpi=300, bbox_inches='tight')
     print(f"\n✅ Saved: results/01_target_distribution.png")
     plt.close()
 

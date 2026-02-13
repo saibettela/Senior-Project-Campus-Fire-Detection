@@ -272,8 +272,8 @@ def visualize_distributions(X_train_original, X_train_scaled, y_train):
     # Create results directory if it doesn't exist
     results_dir = Path("results")
     results_dir.mkdir(exist_ok=True)
-    
-    plt.savefig(results_dir / "05_normalization_comparison.png", dpi=300, bbox_inches='tight')
+    project_root = Path(__file__).resolve().parent.parent
+    plt.savefig(project_root / results_dir / "05_normalization_comparison.png", dpi=300, bbox_inches='tight')
     print("\n✅ Saved: results/05_normalization_comparison.png")
     plt.close()
     
