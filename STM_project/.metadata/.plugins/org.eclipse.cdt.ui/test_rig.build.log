@@ -1,0 +1,10 @@
+13:11:07 **** Incremental Build of configuration Debug for project test_rig ****
+make -j7 all 
+arm-none-eabi-size  test_rig.elf 
+   text	   data	    bss	    dec	    hex	filename
+  36724	    468	   3508	  40700	   9efc	test_rig.elf
+Finished building: default.size.stdout
+ 
+
+13:11:07 Build Finished. 0 errors, 0 warnings. (took 238ms)
+

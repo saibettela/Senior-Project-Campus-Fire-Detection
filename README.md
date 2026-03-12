@@ -114,7 +114,7 @@ CampusFireDetection/
 
 ## 🚀 Quick Start Workflow
 
-### Phase 1: Dataset Preparation (Week 1)
+### Phase 1: Dataset Preparation 
 **Location:** `02_Dataset/`
 
 ```bash
@@ -124,7 +124,7 @@ cd 02_Dataset/
 # Output: scaler_parameters.json (CRITICAL!)
 ```
 
-### Phase 2: Model Training (Week 1-2)
+### Phase 2: Model Training 
 **Location:** `03_Model_Training/`
 
 ```bash
@@ -143,7 +143,7 @@ python 05_export_onnx.py
 # Output: fire_detection.onnx, scaler_parameters.json
 ```
 
-### Phase 3: Model Deployment (Week 2)
+### Phase 3: Model Deployment 
 **Location:** `04_Model_Deployment/`
 
 ```bash
@@ -158,7 +158,7 @@ cp ../03_Model_Training/trained_models/fire_detection.onnx .
 # 4. Generate C code
 ```
 
-### Phase 4: Firmware Integration (Week 3-4)
+### Phase 4: Firmware Integration 
 **Location:** `05_Firmware/`
 
 ```bash
@@ -170,7 +170,7 @@ make
 make flash
 ```
 
-### Phase 5: Testing & Validation (Week 5-6)
+### Phase 5: Testing & Validation 
 **Location:** `06_Testing/`
 
 ```bash
@@ -182,7 +182,7 @@ cd 06_Testing/
 
 ---
 
-## 📝 Critical Files You MUST Create
+## 📝 Critical Files
 
 ### 1. **scaler_parameters.json**
 **Location:** `02_Dataset/processed/` AND `05_Firmware/Core/Inc/`
@@ -281,126 +281,3 @@ cd 06_Testing/
 
 ---
 
-## 📋 Checklist for Each Phase
-
-### ✅ Phase 1: Dataset (Complete by Week 1)
-- [ ] Download Kaggle dataset
-- [ ] Run data exploration script
-- [ ] Generate training/test split
-- [ ] **CRITICAL:** Save `scaler_parameters.json`
-- [ ] Verify sensor feature alignment
-
-### ✅ Phase 2: Training (Complete by Week 2)
-- [ ] Train basic XGBoost model
-- [ ] Evaluate performance (accuracy, precision, recall)
-- [ ] Train temporal model (optional, for 97%+ accuracy)
-- [ ] Export best model to ONNX
-- [ ] **CRITICAL:** Save `fire_detection.onnx`
-- [ ] **CRITICAL:** Save `model_metadata.json`
-- [ ] Generate performance plots
-
-### ✅ Phase 3: Deployment (Complete by Week 3)
-- [ ] Install STM32CubeMX + X-CUBE-AI
-- [ ] Create new STM32 project (STM32L4Q5T6P)
-- [ ] Import ONNX model
-- [ ] Configure int8 quantization
-- [ ] Analyze memory/performance
-- [ ] Generate C code
-- [ ] **CRITICAL:** Verify generated files exist
-
-### ✅ Phase 4: Firmware (Complete by Week 5)
-- [ ] Copy AI-generated code to firmware project
-- [ ] Implement sensor drivers (I2C)
-- [ ] Implement LoRa communication (SPI)
-- [ ] Integrate AI inference in main loop
-- [ ] **CRITICAL:** Hardcode scaler parameters
-- [ ] Build firmware (no errors)
-- [ ] Flash to STM32 board
-- [ ] Test basic sensor reading
-
-### ✅ Phase 5: Testing (Complete by Week 6)
-- [ ] DR-01: Detection time ≤30s
-- [ ] DR-05: False alarm rate ≤3%
-- [ ] DR-06: Detection accuracy ≥90%
-- [ ] DR-08: Battery life ≥6 months (calculated)
-- [ ] DR-09: Power consumption ≤1.0mA
-- [ ] Document all test results
-- [ ] Write final report
-
----
-
-## 🎯 Success Criteria
-
-Your project is successful when:
-
-1. ✅ **Model Accuracy** ≥90% (DR-06)
-2. ✅ **False Alarm Rate** ≤3% (DR-05)
-3. ✅ **Detection Time** ≤30s (DR-01)
-4. ✅ **Battery Life** ≥6 months (DR-08)
-5. ✅ **Firmware Compiles** without errors
-6. ✅ **AI Inference** runs in ≤9ms
-7. ✅ **All Sensors** read correctly
-8. ✅ **LoRa Communication** works at ≥500m
-
----
-
-## 🆘 Troubleshooting
-
-### Problem: "Model accuracy is only 85%"
-**Solution:** 
-- Check class imbalance (use SMOTE)
-- Add temporal features
-- Increase `n_estimators` to 100
-- Try different `max_depth` (4 → 6)
-
-### Problem: "STM32Cube.AI fails to import ONNX"
-**Solution:**
-- Verify ONNX opset version (use opset=12)
-- Try alternative export method
-- Check X-CUBE-AI version (update if needed)
-
-### Problem: "Firmware doesn't compile"
-**Solution:**
-- Verify all AI files copied correctly
-- Check include paths
-- Enable FPU in project settings
-- Increase stack/heap size
-
-### Problem: "Inference takes >9ms"
-**Solution:**
-- Reduce model complexity (fewer trees)
-- Lower clock speed during training to match target
-- Enable compiler optimization (-O3)
-- Use DMA for sensor reading
-
----
-
-## 📞 Need Help?
-
-**Dataset Issues:**
-- Kaggle documentation: https://www.kaggle.com/datasets/deepcontractor/smoke-detection-dataset
-- Alternative datasets in `01_Project_Documents/Research_Notes.pdf`
-
-**STM32 Issues:**
-- X-CUBE-AI User Manual: ST website
-- STM32L4 Reference Manual: RM0432
-- Community forum: st.com/community
-
-**Python/ML Issues:**
-- XGBoost docs: https://xgboost.readthedocs.io/
-- Scikit-learn: https://scikit-learn.org/
-
----
-
-## 📄 License & Credits
-
-**Dataset:** Kaggle Smoke Detection Dataset by DeepContractor
-**Hardware:** STM32L4Q5T6P, Sensirion SHT41/SGP41/SCD41, HopeRF RFM95W
-**Team:** Joseph DeChaine, Kai Gottschalk, Saigaurav Bettela
-**Advisor:** Dr. Mohammad Ghamari
-**Institution:** Cal Poly San Luis Obispo
-
----
-
-**Last Updated:** February 2026
-**Project Status:** In Development (Quarter 2)

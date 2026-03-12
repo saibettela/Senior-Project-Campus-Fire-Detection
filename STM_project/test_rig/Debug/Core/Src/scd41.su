@@ -1,0 +1,17 @@
+../Core/Src/scd41.c:4:26:scd41_send_cmd	32	static
+../Core/Src/scd41.c:11:26:scd41_send_cmd_word	32	static
+../Core/Src/scd41.c:24:16:scd41_check_crc	16	static
+../Core/Src/scd41.c:30:26:scd41_parse_measurement	24	static
+../Core/Src/scd41.c:48:19:scd41_start_periodic	16	static
+../Core/Src/scd41.c:53:19:scd41_stop_periodic	24	static
+../Core/Src/scd41.c:61:19:scd41_data_ready	32	static
+../Core/Src/scd41.c:82:19:scd41_read_measurement	40	static
+../Core/Src/scd41.c:98:19:scd41_measure_single	40	static
+../Core/Src/scd41.c:114:19:scd41_set_temp_offset	24	static
+../Core/Src/scd41.c:121:19:scd41_get_temp_offset	32	static
+../Core/Src/scd41.c:141:19:scd41_set_pressure	24	static
+../Core/Src/scd41.c:148:19:scd41_forced_recal	24	static
+../Core/Src/scd41.c:157:19:scd41_persist_settings	24	static
+../Core/Src/scd41.c:165:19:scd41_get_serial	144	static
+../Core/Src/scd41.c:189:19:scd41_factory_reset	24	static
+../Core/Src/scd41.c:197:19:scd41_reinit	24	static
