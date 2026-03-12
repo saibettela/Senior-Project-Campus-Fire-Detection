@@ -13,7 +13,36 @@
   * in the root directory of this software component.
   * If no LICENSE file comes with this software, it is provided AS-IS.
   *
+  * SENSOR WIRING INSTRUCTIONS
+ * I2C Bus: I2C2, SDA = PF0, SCL = PF1
+ * Supply: 3.3V, Pull-ups: 4.7k ohm from SDA to 3.3V and SCL to 3.3V
+ * =============================================================================
+ *
+ * SHT41A (Temperature/Humidity) - I2C Address 0x44
+ * -----------------------------------------------
+ * SHT41A (Temperature/Humidity) - I2C Address 0x44
+ * Breakout connector J1:
+ * Pin 1 -> GND
+ * Pin 2 -> PF0 (I2C2_SDA)
+ * Pin 3 -> PF1 (I2C2_SCL)
+ * Pin 4 -> 3.3V
+ *
+ * SGP41 (VOC/NOx) - I2C Address 0x59
+ * Breakout connector J1:
+ * Pin 1 -> GND
+ * Pin 2 -> PF1 (I2C2_SCL)
+ * Pin 3 -> PF0 (I2C2_SDA)
+ * Pin 4 -> 3.3V
+ *
+ * SCD41 (CO2/Temperature/Humidity) - I2C Address 0x62
+ * Breakout connector J1:
+ * Pin 1 -> GND
+ * Pin 2 -> PF1 (I2C2_SCL)
+ * Pin 3 -> PF0 (I2C2_SDA)
+ * Pin 4 -> 3.3V
+ *
   ******************************************************************************
+  
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
