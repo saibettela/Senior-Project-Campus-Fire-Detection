@@ -1,0 +1,59 @@
+======================================================================
+ONNX EXPORT REPORT
+Campus Fire Detection System — XGBoost to ONNX
+Export Date: 2026-02-26 13:30:03
+======================================================================
+
+1. OUTPUT FILE
+----------------------------------------------------------------------
+   Path:      /mnt/c/Users/saibe/OneDrive/Documents/GitHub/Senior-Project-Campus-Fire-Detection/Models/fire_detection.onnx
+   Size:      217.7 KB
+   Format:    ONNX opset 12
+   Input:     float_input [batch, 4] (float32)
+   Features:  temperature, humidity, tvoc, eco2
+
+2. VALIDATION RESULTS (on held-out test set)
+----------------------------------------------------------------------
+   Original XGBoost accuracy:  99.5769%
+   ONNX Runtime accuracy:      99.5769%
+   Prediction agreement:       100.0000%
+   Disagreements:              0 samples
+
+3. DESIGN REQUIREMENTS VERIFICATION
+----------------------------------------------------------------------
+   DR-06 (accuracy ≥ 90%):      99.58%  ✅ PASS
+   DR-05 (false alarms ≤ 3%):   0.76%  ✅ PASS
+
+4. SCALER PARAMETERS (copy to STM32 firmware)
+----------------------------------------------------------------------
+   ⚠️  CRITICAL: These values MUST match your C firmware exactly!
+
+   C struct example:
+   static const ScalerParams_t scaler = {
+       .temperature_min = -22.010000f,
+       .temperature_max = 59.930000f,
+       .humidity_min = 10.740000f,
+       .humidity_max = 75.200000f,
+       .tvoc_min = 0.000000f,
+       .tvoc_max = 60000.000000f,
+       .eco2_min = 400.000000f,
+       .eco2_max = 60000.000000f,
+   };
+
+   Normalization formula (apply before inference):
+   normalized = (raw_value - min) / (max - min)
+
+5. STM32 DEPLOYMENT NEXT STEPS
+----------------------------------------------------------------------
+   1. Open STM32CubeMX
+   2. Install X-CUBE-AI expansion pack (if not already done)
+   3. Add AI component → X-CUBE-AI → Application Template
+   4. Import: fire_detection.onnx
+   5. Set quantization: int8 (reduces size, minimal accuracy loss)
+   6. Click 'Analyze' → check memory requirements
+   7. Generate Code → copy AI files to 05_Firmware/
+   8. Hardcode scaler parameters into fire_detection_app.c
+
+   Refer to: 04_Model_Deployment/INSTRUCTIONS.md for full details.
+
+======================================================================

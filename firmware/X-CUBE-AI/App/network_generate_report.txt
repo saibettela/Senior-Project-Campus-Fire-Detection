@@ -1,0 +1,161 @@
+ST Edge AI Core v2.2.0-20266 2adc00962
+Created date          : 2026-02-26 23:49:51
+Parameters            : generate --target stm32l4 --name network -m C:/Users/saibe/OneDrive/Documents/GitHub/Senior-Project-Campus-Fire-Detection/Models/fire_detection.onnx --compression none --verbosity 1 --workspace C:/Users/saibe/AppData/Local/Temp/mxAI_workspace1784950423889009468950090676168146 --output C:/Users/saibe/.stm32cubemx/network_output
+
+Exec/report summary (generate)
+----------------------------------------------------------------------------------------------------------------------------------
+model file         :   C:\Users\saibe\OneDrive\Documents\GitHub\Senior-Project-Campus-Fire-Detection\Models\fire_detection.onnx   
+type               :   onnx                                                                                                       
+c_name             :   network                                                                                                    
+compression        :   none                                                                                                       
+options            :   allocate-inputs, allocate-outputs                                                                          
+optimization       :   balanced                                                                                                   
+target/series      :   stm32l4                                                                                                    
+workspace dir      :   C:\Users\saibe\AppData\Local\Temp\mxAI_workspace1784950423889009468950090676168146                         
+output dir         :   C:\Users\saibe\.stm32cubemx\network_output                                                                 
+model_fmt          :   undefined                                                                                                  
+model_name         :   fire_detection                                                                                             
+model_hash         :   0xbafd60d4ac92e9e87514ad3e318e19be                                                                         
+params #           :   39,845 items (91.82 KiB)                                                                                   
+----------------------------------------------------------------------------------------------------------------------------------
+input 1/1          :   'float_input', f32(1x1x4), 16 Bytes, activations                                                           
+output 1/2         :   'label0', int32(1x1), 4 Bytes, activations                                                                 
+output 2/2         :   'label1', f32(1x1x2), 8 Bytes, activations                                                                 
+outputs (total)    :   12 Bytes                                                                                                   
+macc               :   1,077                                                                                                      
+weights (ro)       :   94,028 B (91.82 KiB) (1 segment) / -65,352(-41.0%) vs float model                                          
+activations (rw)   :   28 B (28 B) (1 segment) *                                                                                  
+ram (total)        :   28 B (28 B) = 28 + 0 + 0                                                                                   
+----------------------------------------------------------------------------------------------------------------------------------
+(*) 'input'/'output' buffers are allocated in the activations buffer
+
+Model name - fire_detection
+------ -------------------------------------------------------- ---------------- --------------- ------- -------------- --- -------- -------- ---------------------------------- 
+m_id   layer (type,original)                                    oshape           param/size         macc   connected to   | c_size   c_macc   c_type                             
+------ -------------------------------------------------------- ---------------- --------------- ------- -------------- --- -------- -------- ---------------------------------- 
+0      float_input (Input, )                                    [h:1,c:4]                                                 |                   
+------ -------------------------------------------------------- ---------------- --------------- ------- -------------- --- -------- -------- ---------------------------------- 
+1      label (TreeEnsembleClassifier, TreeEnsembleClassifier)   [c:1][h:1,c:2]   39,845/94,022     1,077    float_input   |                   TreeEnsembleClassifier_[o][o][0]   
+------ -------------------------------------------------------- ---------------- --------------- ------- -------------- --- -------- -------- ---------------------------------- 
+model/c-model: macc=1,077/1,077  weights=94,022/94,028 +6(+0.0%) activations=--/28 io=--/0
+
+
+
+Generated C-graph summary
+------------------------------------------------------------------------------------------------------------------------
+model name            : fire_detection
+c-name                : network
+c-node #              : 1
+c-array #             : 15
+activations size      : 28 (1 segment)
+weights size          : 94028 (1 segment)
+macc                  : 1077
+inputs                : ['float_input_output']
+outputs               : ['label_output0', 'label_output1']
+
+C-Arrays (15)
+------ ----------------------------- ------------ ------------------------- ------------- --------- 
+c_id   name (*_array)                item/size    domain/mem-pool           c-type        comment   
+------ ----------------------------- ------------ ------------------------- ------------- --------- 
+0      float_input_output            4/16         activations/**default**   float         /input    
+1      label_base_values             2/8          weights/weights           const float             
+2      label_branch_mode             100/100      weights/weights           const u8                
+3      label_class_ids               3631/7262    weights/weights           const u16               
+4      label_class_nodeids           3631/7262    weights/weights           const u16               
+5      label_class_weights           3631/14524   weights/weights           const float             
+6      label_classlabels_int64s      2/8          weights/weights           const s32               
+7      label_nb_class_by_estimator   100/200      weights/weights           const u16               
+8      label_nb_node_by_estimator    100/200      weights/weights           const u16               
+9      label_nodes_falsenodeids      7162/14324   weights/weights           const u16               
+10     label_nodes_featureids        7162/7162    weights/weights           const u8                
+11     label_nodes_truenodeids       7162/14324   weights/weights           const u16               
+12     label_nodes_values            7162/28648   weights/weights           const float             
+13     label_output0                 1/4          activations/**default**   s32           /output   
+14     label_output1                 2/8          activations/**default**   float         /output   
+------ ----------------------------- ------------ ------------------------- ------------- --------- 
+
+C-Layers (1)
+------ ---------------- ---- ------------------------- ------ ------- -------------------------------- ------------------- 
+c_id   name (*_layer)   id   layer_type                macc   rom     tensors                          shape (array id)    
+------ ---------------- ---- ------------------------- ------ ------- -------------------------------- ------------------- 
+0      label            1    TreeEnsembleClassifier    1077   94022   I: float_input_output            f32(1x1x4) (0)      
+                                                                      W: label_branch_mode             uint8(100) (2)      
+                                                                      W: label_nodes_featureids        uint8(7162) (10)    
+                                                                      W: label_nodes_values            f32(7162) (12)      
+                                                                      W: label_nodes_truenodeids       uint16(7162) (11)   
+                                                                      W: label_nodes_falsenodeids      uint16(7162) (9)    
+                                                                      W: label_class_weights           f32(3631) (5)       
+                                                                      W: label_nb_node_by_estimator    uint16(100) (8)     
+                                                                      W: label_class_nodeids           uint16(3631) (4)    
+                                                                      W: label_nb_class_by_estimator   uint16(100) (7)     
+                                                                      W: label_classlabels_int64s      int32(2) (6)        
+                                                                      W: label_base_values             f32(2) (1)          
+                                                                      W: label_class_ids               uint16(3631) (3)    
+                                                                      O: label_output0                 int32(1x1) (13)     
+                                                                      O: label_output1                 f32(1x1x2) (14)     
+------ ---------------- ---- ------------------------- ------ ------- -------------------------------- ------------------- 
+
+
+
+Number of operations per c-layer
+------- ------ -------------------------------- ------- ------------- 
+c_id    m_id   name (type)                          #op          type 
+------- ------ -------------------------------- ------- ------------- 
+0       1      label (TreeEnsembleClassifier)     1,077   smul_f32_s8 
+------- ------ -------------------------------- ------- ------------- 
+total                                             1,077 
+
+Number of operation types
+---------------- ------- ----------- 
+operation type         #           % 
+---------------- ------- ----------- 
+smul_f32_s8        1,077      100.0% 
+
+Complexity report (model)
+------ ------- ------------------------- ------------------------- ------ 
+m_id   name    c_macc                    c_rom                     c_id   
+------ ------- ------------------------- ------------------------- ------ 
+1      label   |||||||||||||||| 100.0%   |||||||||||||||| 100.0%   [0]    
+------ ------- ------------------------- ------------------------- ------ 
+macc=1,077 weights=94,028 act=28 ram_io=0
+ 
+ Requested memory size by section - "stm32l4" target
+ ------------------------------ ------- -------- ------- ----- 
+ module                            text   rodata    data   bss 
+ ------------------------------ ------- -------- ------- ----- 
+ NetworkRuntime1020_CM4_GCC.a     5,136        0       0     0 
+ network.o                          640        8   1,524   168 
+ network_data.o                      48       16      88     0 
+ lib (toolchain)*                   712       24       0     0 
+ ------------------------------ ------- -------- ------- ----- 
+ RT total**                       6,536       48   1,612   168 
+ ------------------------------ ------- -------- ------- ----- 
+ weights                              0   94,032       0     0 
+ activations                          0        0       0    28 
+ io                                   0        0       0     0 
+ ------------------------------ ------- -------- ------- ----- 
+ TOTAL                            6,536   94,080   1,612   196 
+ ------------------------------ ------- -------- ------- ----- 
+ *  toolchain objects (libm/libgcc*)
+ ** RT AI runtime objects (kernels+infrastructure)
+  
+  Summary - "stm32l4" target
+  --------------------------------------------------
+               FLASH (ro)     %*   RAM (rw)       % 
+  --------------------------------------------------
+  RT total          8,196   8.0%      1,780   98.5% 
+  --------------------------------------------------
+  TOTAL           102,228             1,808         
+  --------------------------------------------------
+  *  rt/total
+
+
+Generated files (7)
+------------------------------------------------------------------ 
+C:\Users\saibe\.stm32cubemx\network_output\network_data_params.h   
+C:\Users\saibe\.stm32cubemx\network_output\network_data_params.c   
+C:\Users\saibe\.stm32cubemx\network_output\network_data.h          
+C:\Users\saibe\.stm32cubemx\network_output\network_data.c          
+C:\Users\saibe\.stm32cubemx\network_output\network_config.h        
+C:\Users\saibe\.stm32cubemx\network_output\network.h               
+C:\Users\saibe\.stm32cubemx\network_output\network.c               
