@@ -1,0 +1,5 @@
+../Core/Src/sht41a.c:4:26:sht41a_send_cmd	1
+../Core/Src/sht41a.c:10:16:sht41a_check_crc	1
+../Core/Src/sht41a.c:15:19:sht41a_measure	7
+../Core/Src/sht41a.c:44:19:sht41a_get_serial	5
+../Core/Src/sht41a.c:65:19:sht41a_reset	2

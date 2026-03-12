@@ -1,0 +1,35 @@
+!SESSION 2026-03-12 10:23:38.553 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/joedechaine/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/joedechaine/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-03-12 10:24:47.642
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-03-12 10:24:47.644
+!MESSAGE Log4j2 initialized with config file /Users/joedechaine/Documents/Senior Project/Senior-Project-Campus-Fire-Detection/STM_project/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-03-12 10:24:53.884
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2026-03-12 10:27:46.598 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/joedechaine/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/joedechaine/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-03-12 10:28:04.846
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-03-12 10:28:04.847
+!MESSAGE Log4j2 initialized with config file /Users/joedechaine/Documents/Senior Project/Senior-Project-Campus-Fire-Detection/STM_project/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-03-12 10:28:07.915
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-12 10:30:41.361
+!MESSAGE Indexed 'test_rig' (26 sources, 86 headers) in 7.67 sec: 6,601 declarations; 37,565 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0045%)
