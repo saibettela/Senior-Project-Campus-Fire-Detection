@@ -764,3 +764,34 @@
 2026-03-12 12:50:44,365 [INFO] CADModel:114 - Register for checkConnection events
 2026-03-12 12:50:44,427 [INFO] OpenFileManager:386 - Restore cursor
 2026-03-12 12:51:19,838 [INFO] I2cTimingTraitement:330 - 0x00805B85
+2026-03-12 15:00:06,720 [INFO] WebApp:194 - Connection lost
+2026-03-12 15:00:12,690 [INFO] WebApp:191 - Connection restablished
+2026-03-12 15:02:29,101 [INFO] WebApp:194 - Connection lost
+2026-03-12 15:02:36,402 [INFO] WebApp:191 - Connection restablished
+2026-03-12 15:06:21,194 [INFO] WebApp:194 - Connection lost
+2026-03-12 15:06:26,816 [INFO] WebApp:191 - Connection restablished
+2026-03-12 15:10:15,045 [INFO] WebApp:194 - Connection lost
+2026-03-12 15:10:20,209 [INFO] WebApp:191 - Connection restablished
+2026-03-12 15:13:27,352 [INFO] WebApp:194 - Connection lost
+2026-03-12 15:13:31,832 [INFO] WebApp:191 - Connection restablished
+2026-03-12 15:16:11,752 [INFO] WebApp:194 - Connection lost
+2026-03-12 15:16:17,130 [INFO] WebApp:191 - Connection restablished
+2026-03-12 15:16:27,613 [INFO] WebApp:194 - Connection lost
+2026-03-12 15:33:27,383 [INFO] WebApp:191 - Connection restablished
+2026-03-12 15:33:27,916 [INFO] WebApp:194 - Connection lost
+2026-03-12 15:33:28,978 [INFO] WebApp:191 - Connection restablished
+2026-03-12 15:34:14,554 [INFO] WebApp:194 - Connection lost
+2026-03-12 15:34:15,667 [INFO] WebApp:191 - Connection restablished
+2026-03-12 15:35:26,742 [INFO] WebApp:194 - Connection lost
+2026-03-12 15:35:28,007 [INFO] WebApp:191 - Connection restablished
+2026-03-12 15:52:49,668 [INFO] WebApp:194 - Connection lost
+2026-03-12 15:52:53,572 [INFO] WebApp:191 - Connection restablished
+2026-03-12 16:09:53,806 [INFO] WebApp:194 - Connection lost
+2026-03-12 16:09:55,830 [INFO] WebApp:191 - Connection restablished
+2026-03-12 16:22:03,802 [INFO] WebApp:194 - Connection lost
+2026-03-12 16:22:05,267 [INFO] WebApp:191 - Connection restablished
+2026-03-12 16:31:18,204 [INFO] WebApp:194 - Connection lost
+2026-03-12 16:31:21,064 [INFO] WebApp:191 - Connection restablished
+2026-03-12 16:33:52,383 [INFO] WebApp:194 - Connection lost
+2026-03-12 16:33:53,440 [INFO] WebApp:191 - Connection restablished
+2026-03-12 16:34:08,982 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
