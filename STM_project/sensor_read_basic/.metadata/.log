@@ -1,0 +1,19 @@
+!SESSION 2026-04-01 13:52:50.891 -----------------------------------------------
+eclipse.buildId=Version 2.1.1
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/joedechaine/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/joedechaine/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-04-01 13:53:11.374
+!MESSAGE Log4j2 initialized with config file /Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-04-01 13:53:12.980
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2026-04-01 13:53:13.203
+!MESSAGE ProjectImporter: mdfind -name lsregister didn't returned anything
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-04-01 13:53:59.190
+!MESSAGE Indexed 'test_rig' (30 sources, 128 headers) in 2.11 sec: 13,704 declarations; 72,006 references; 3 unresolved inclusions; 46 syntax errors; 171 unresolved names (0.2%)

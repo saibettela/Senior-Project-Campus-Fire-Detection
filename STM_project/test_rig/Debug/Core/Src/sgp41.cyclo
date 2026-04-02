@@ -1,9 +1,0 @@
-../Core/Src/sgp41.c:4:26:sgp41_send_cmd	1
-../Core/Src/sgp41.c:11:26:sgp41_send_cmd_with_params	1
-../Core/Src/sgp41.c:29:16:sgp41_check_crc	1
-../Core/Src/sgp41.c:35:13:sgp41_compensation_ticks	3
-../Core/Src/sgp41.c:47:19:sgp41_conditioning	4
-../Core/Src/sgp41.c:68:19:sgp41_measure_raw	5
-../Core/Src/sgp41.c:94:19:sgp41_self_test	4
-../Core/Src/sgp41.c:113:19:sgp41_get_serial	6
-../Core/Src/sgp41.c:137:19:sgp41_reset	1
