@@ -1,0 +1,5 @@
+/Users/joedechaine/Desktop/sensor_read_basic/Core/Src/sgp41_i2c.c:46:9:sgp41_execute_conditioning	3
+/Users/joedechaine/Desktop/sensor_read_basic/Core/Src/sgp41_i2c.c:73:9:sgp41_measure_raw_signals	3
+/Users/joedechaine/Desktop/sensor_read_basic/Core/Src/sgp41_i2c.c:102:9:sgp41_execute_self_test	3
+/Users/joedechaine/Desktop/sensor_read_basic/Core/Src/sgp41_i2c.c:123:9:sgp41_turn_heater_off	2
+/Users/joedechaine/Desktop/sensor_read_basic/Core/Src/sgp41_i2c.c:137:9:sgp41_get_serial_number	3
