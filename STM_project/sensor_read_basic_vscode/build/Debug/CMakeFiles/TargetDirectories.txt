@@ -1,3 +1,3 @@
-/Users/joedechaine/Desktop/sensor_read_basic/build/Debug/CMakeFiles/sensor_read_basic.dir
-/Users/joedechaine/Desktop/sensor_read_basic/build/Debug/CMakeFiles/edit_cache.dir
-/Users/joedechaine/Desktop/sensor_read_basic/build/Debug/CMakeFiles/rebuild_cache.dir
+/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/build/Debug/CMakeFiles/sensor_read_basic.dir
+/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/build/Debug/CMakeFiles/edit_cache.dir
+/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/build/Debug/CMakeFiles/rebuild_cache.dir

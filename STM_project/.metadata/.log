@@ -344,3 +344,35 @@ Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/joed
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2026-04-01 18:15:26.254
 !MESSAGE ProjectImporter: mdfind -name lsregister didn't returned anything
+!SESSION 2026-04-02 13:16:56.672 -----------------------------------------------
+eclipse.buildId=Version 2.1.1
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/joedechaine/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/joedechaine/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-04-02 13:17:10.051
+!MESSAGE Log4j2 initialized with config file /Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-04-02 13:17:12.958
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2026-04-02 13:17:13.231
+!MESSAGE ProjectImporter: mdfind -name lsregister didn't returned anything
+!SESSION 2026-04-03 10:33:48.651 -----------------------------------------------
+eclipse.buildId=Version 2.1.1
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/joedechaine/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/joedechaine/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-04-03 10:33:53.687
+!MESSAGE Log4j2 initialized with config file /Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-04-03 10:33:56.899
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2026-04-03 10:33:57.114
+!MESSAGE ProjectImporter: mdfind -name lsregister didn't returned anything

@@ -1,8 +1,8 @@
-/Users/joedechaine/Desktop/sensor_read_basic/Core/Src/main.c:69:13:uart_print	1
-/Users/joedechaine/Desktop/sensor_read_basic/Core/Src/main.c:79:5:main	4
-/Users/joedechaine/Desktop/sensor_read_basic/Core/Src/main.c:173:6:SystemClock_Config	4
-/Users/joedechaine/Desktop/sensor_read_basic/Core/Src/main.c:234:13:MX_I2C2_Init	4
-/Users/joedechaine/Desktop/sensor_read_basic/Core/Src/main.c:282:13:MX_LPUART1_UART_Init	2
-/Users/joedechaine/Desktop/sensor_read_basic/Core/Src/main.c:316:13:MX_USB_OTG_FS_PCD_Init	2
-/Users/joedechaine/Desktop/sensor_read_basic/Core/Src/main.c:351:13:MX_GPIO_Init	1
-/Users/joedechaine/Desktop/sensor_read_basic/Core/Src/main.c:412:6:Error_Handler	1
+/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/Core/Src/main.c:69:13:uart_print	1
+/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/Core/Src/main.c:79:5:main	4
+/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/Core/Src/main.c:173:6:SystemClock_Config	4
+/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/Core/Src/main.c:234:13:MX_I2C2_Init	4
+/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/Core/Src/main.c:282:13:MX_LPUART1_UART_Init	2
+/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/Core/Src/main.c:316:13:MX_USB_OTG_FS_PCD_Init	2
+/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/Core/Src/main.c:351:13:MX_GPIO_Init	1
+/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/Core/Src/main.c:412:6:Error_Handler	1

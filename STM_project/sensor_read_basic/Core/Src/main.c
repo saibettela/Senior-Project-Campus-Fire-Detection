@@ -105,10 +105,11 @@ int main(void)
   MX_LPUART1_UART_Init();
   MX_USB_OTG_FS_PCD_Init();
   /* USER CODE BEGIN 2 */
+
   uart_print("Initializing sensors...\r\n");
   HAL_Delay(1000);
   sht4x_init(SHT41_I2C_ADDR_44);
-
+/*
     uart_print("Stopping SCD41...\r\n");
     int16_t err = scd4x_stop_periodic_measurement();
     snprintf(uart_buf, sizeof(uart_buf), "SCD41 stop: %d\r\n", err);
@@ -119,7 +120,7 @@ int main(void)
     err = scd4x_start_periodic_measurement();
     snprintf(uart_buf, sizeof(uart_buf), "SCD41 start: %d\r\n", err);
     uart_print(uart_buf);
-
+*/
     uart_print("Init complete\r\n");
   /* USER CODE END 2 */
 
@@ -130,6 +131,15 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+	  uart_print("Loop start\r\n");
+	  uart_print("Scanning I2C...\r\n");
+	  for (uint8_t addr = 1; addr < 128; addr++) {
+	      if (HAL_I2C_IsDeviceReady(&hi2c2, addr << 1, 2, 10) == HAL_OK) {
+	          snprintf(uart_buf, sizeof(uart_buf), "Found: 0x%02X\r\n", addr);
+	          uart_print(uart_buf);
+	      }
+	  }
+	  uart_print("Scan done\r\n");
 	  /* SHT41 */
 	  	  int32_t temperature, humidity;
 	      int16_t ret = sht4x_measure_high_precision(&temperature, &humidity);
@@ -140,7 +150,7 @@ int main(void)
 	          uart_print("SHT41 read failed\r\n");
 	      }
 
-	      /* SGP41 */
+	      /* SGP41
 	      uint16_t sraw_voc, sraw_nox;
 	      ret = sgp41_measure_raw_signals((uint16_t)(humidity * 65535 / 100000), (uint16_t)((temperature + 45000) * 65535 / 175000), &sraw_voc, &sraw_nox);
 	      if (ret == 0) {
@@ -148,9 +158,9 @@ int main(void)
 	          uart_print(uart_buf);
 	      } else {
 	          uart_print("SGP41 read failed\r\n");
-	      }
+	      } */
 
-	      /* SCD41 */
+	      /* SCD41
 	      bool data_ready = false;
 	      scd4x_get_data_ready_status(&data_ready);
 	      if (data_ready) {
@@ -159,7 +169,7 @@ int main(void)
 	          scd4x_read_measurement(&co2, &temp2, &hum2);
 	          snprintf(uart_buf, sizeof(uart_buf), "SCD41: CO2=%u ppm  T=%ld.%02ld C  RH=%ld.%02ld%%\r\n", co2, temp2 / 1000, (temp2 % 1000) / 10, hum2 / 1000, (hum2 % 1000) / 10);
 	          uart_print(uart_buf);
-	      }
+	      } */
 
 	      HAL_Delay(1000);
   }

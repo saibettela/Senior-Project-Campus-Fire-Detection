@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Darwin")
 set(CMAKE_HOST_SYSTEM_VERSION "25.4.0")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "arm64")
 
-include("/Users/joedechaine/Desktop/sensor_read_basic/cmake/gcc-arm-none-eabi.cmake")
+include("/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/cmake/gcc-arm-none-eabi.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

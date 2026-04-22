@@ -148,23 +148,23 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "/Users/joedechaine/Desktop/sensor_read_basic/Core/Inc"
+					"path" : "/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/Core/Inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/joedechaine/Desktop/sensor_read_basic/Drivers/STM32L4xx_HAL_Driver/Inc"
+					"path" : "/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/Drivers/STM32L4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/joedechaine/Desktop/sensor_read_basic/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"
+					"path" : "/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/joedechaine/Desktop/sensor_read_basic/Drivers/CMSIS/Device/ST/STM32L4xx/Include"
+					"path" : "/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/Drivers/CMSIS/Device/ST/STM32L4xx/Include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/joedechaine/Desktop/sensor_read_basic/Drivers/CMSIS/Include"
+					"path" : "/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "C",
@@ -248,23 +248,23 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "/Users/joedechaine/Desktop/sensor_read_basic/Core/Inc"
+					"path" : "/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/Core/Inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/joedechaine/Desktop/sensor_read_basic/Drivers/STM32L4xx_HAL_Driver/Inc"
+					"path" : "/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/Drivers/STM32L4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/joedechaine/Desktop/sensor_read_basic/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"
+					"path" : "/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/joedechaine/Desktop/sensor_read_basic/Drivers/CMSIS/Device/ST/STM32L4xx/Include"
+					"path" : "/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/Drivers/CMSIS/Device/ST/STM32L4xx/Include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/joedechaine/Desktop/sensor_read_basic/Drivers/CMSIS/Include"
+					"path" : "/Users/joedechaine/Documents/Senior_Project/Senior-Project-Campus-Fire-Detection/STM_project/sensor_read_basic_vscode/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "ASM",

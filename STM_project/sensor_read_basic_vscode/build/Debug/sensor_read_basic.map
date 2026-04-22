@@ -1587,8 +1587,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x5cf CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
  .debug_macro   0x00000000       0x44 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
  .debug_macro   0x00000000      0x433 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
- .debug_line    0x00000000      0xc38 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
- .debug_str     0x00000000    0xf5f75 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
+ .debug_line    0x00000000      0xdee CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
+ .debug_str     0x00000000    0xf6007 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
  .comment       0x00000000       0x44 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
  .debug_frame   0x00000000      0x1e4 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
  .ARM.attributes
@@ -1683,8 +1683,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x5cf CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
  .debug_macro   0x00000000       0x44 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
  .debug_macro   0x00000000      0x433 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
- .debug_line    0x00000000      0x676 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
- .debug_str     0x00000000    0xf5ae5 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
+ .debug_line    0x00000000      0x82c CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
+ .debug_str     0x00000000    0xf5b77 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
  .comment       0x00000000       0x44 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
@@ -1798,8 +1798,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x5cf CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
  .debug_macro   0x00000000       0x44 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
  .debug_macro   0x00000000      0x433 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
- .debug_line    0x00000000      0x9f3 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
- .debug_str     0x00000000    0xf5dca CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
+ .debug_line    0x00000000      0xba9 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
+ .debug_str     0x00000000    0xf5e5c CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
  .comment       0x00000000       0x44 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
  .debug_frame   0x00000000      0x154 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
  .ARM.attributes
@@ -1925,8 +1925,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x5cf CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
  .debug_macro   0x00000000       0x44 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
  .debug_macro   0x00000000      0x433 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
- .debug_line    0x00000000      0xa02 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
- .debug_str     0x00000000    0xf5fa5 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
+ .debug_line    0x00000000      0xbb8 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
+ .debug_str     0x00000000    0xf6037 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
  .comment       0x00000000       0x44 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
  .debug_frame   0x00000000      0x1e0 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
  .ARM.attributes
@@ -2053,8 +2053,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x5cf CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
  .debug_macro   0x00000000       0x44 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
  .debug_macro   0x00000000      0x433 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
- .debug_line    0x00000000      0xcc5 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
- .debug_str     0x00000000    0xf601b CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
+ .debug_line    0x00000000      0xe7b CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
+ .debug_str     0x00000000    0xf60ad CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
  .comment       0x00000000       0x44 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
  .debug_frame   0x00000000      0x230 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
  .ARM.attributes
@@ -2152,8 +2152,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x5cf CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
  .debug_macro   0x00000000       0x44 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
  .debug_macro   0x00000000      0x433 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
- .debug_line    0x00000000      0x6a2 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
- .debug_str     0x00000000    0xf5bf7 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
+ .debug_line    0x00000000      0x858 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
+ .debug_str     0x00000000    0xf5c89 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
  .comment       0x00000000       0x44 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
  .debug_frame   0x00000000       0x48 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
  .ARM.attributes
@@ -3660,8 +3660,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x5cf CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
  .debug_macro   0x00000000       0x44 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
  .debug_macro   0x00000000      0x433 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
- .debug_line    0x00000000      0xb1a CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
- .debug_str     0x00000000    0xf6255 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
+ .debug_line    0x00000000      0xcd0 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
+ .debug_str     0x00000000    0xf62e7 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
  .comment       0x00000000       0x44 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
  .debug_frame   0x00000000      0x1e8 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
  .ARM.attributes
@@ -5578,62 +5578,62 @@ LOAD /opt/ST/STM32CubeCLT_1.21.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
  .debug_macro   0x0002b854      0x223 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
  .debug_macro   0x0002ba77      0x1f8 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_usb.c.obj
 
-.debug_line     0x00000000    0x15449
- .debug_line    0x00000000      0xa53 CMakeFiles/sensor_read_basic.dir/Core/Src/main.c.obj
- .debug_line    0x00000a53      0xb53 CMakeFiles/sensor_read_basic.dir/Core/Src/scd4x_i2c.c.obj
- .debug_line    0x000015a6      0x505 CMakeFiles/sensor_read_basic.dir/Core/Src/sensirion_common.c.obj
- .debug_line    0x00001aab      0x907 CMakeFiles/sensor_read_basic.dir/Core/Src/sensirion_i2c.c.obj
- .debug_line    0x000023b2      0x847 CMakeFiles/sensor_read_basic.dir/Core/Src/sensirion_i2c_hal.c.obj
- .debug_line    0x00002bf9      0x4da CMakeFiles/sensor_read_basic.dir/Core/Src/sgp41_i2c.c.obj
- .debug_line    0x000030d3      0x903 CMakeFiles/sensor_read_basic.dir/Core/Src/sht4x_i2c.c.obj
- .debug_line    0x000039d6      0x7ed CMakeFiles/sensor_read_basic.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_line    0x000041c3      0x72c CMakeFiles/sensor_read_basic.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_line    0x000048ef      0x649 CMakeFiles/sensor_read_basic.dir/Core/Src/syscalls.c.obj
- .debug_line    0x00004f38      0x325 CMakeFiles/sensor_read_basic.dir/Core/Src/sysmem.c.obj
- .debug_line    0x0000525d      0x71b CMakeFiles/sensor_read_basic.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_line    0x00005978       0x7a CMakeFiles/sensor_read_basic.dir/Core/Startup/startup_stm32l4a6zgtx.s.obj
- .debug_line    0x000059f2      0xa86 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_line    0x00006478      0xc1e CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_line    0x00007096      0xabf CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_line    0x00007b55     0x36a2 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
- .debug_line    0x0000b1f7      0x7e3 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
- .debug_line    0x0000b9da     0x126e CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd.c.obj
- .debug_line    0x0000cc48      0x883 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd_ex.c.obj
- .debug_line    0x0000d4cb      0x84e CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj
- .debug_line    0x0000dd19      0xc3f CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_line    0x0000e958     0x1030 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_line    0x0000f988     0x1715 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_line    0x0001109d     0x2cb6 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
- .debug_line    0x00013d53     0x16f6 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_usb.c.obj
+.debug_line     0x00000000    0x17681
+ .debug_line    0x00000000      0xc09 CMakeFiles/sensor_read_basic.dir/Core/Src/main.c.obj
+ .debug_line    0x00000c09      0xbe5 CMakeFiles/sensor_read_basic.dir/Core/Src/scd4x_i2c.c.obj
+ .debug_line    0x000017ee      0x597 CMakeFiles/sensor_read_basic.dir/Core/Src/sensirion_common.c.obj
+ .debug_line    0x00001d85      0x999 CMakeFiles/sensor_read_basic.dir/Core/Src/sensirion_i2c.c.obj
+ .debug_line    0x0000271e      0x9fd CMakeFiles/sensor_read_basic.dir/Core/Src/sensirion_i2c_hal.c.obj
+ .debug_line    0x0000311b      0x56c CMakeFiles/sensor_read_basic.dir/Core/Src/sgp41_i2c.c.obj
+ .debug_line    0x00003687      0x995 CMakeFiles/sensor_read_basic.dir/Core/Src/sht4x_i2c.c.obj
+ .debug_line    0x0000401c      0x9a3 CMakeFiles/sensor_read_basic.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_line    0x000049bf      0x8e2 CMakeFiles/sensor_read_basic.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_line    0x000052a1      0x692 CMakeFiles/sensor_read_basic.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x00005933      0x36e CMakeFiles/sensor_read_basic.dir/Core/Src/sysmem.c.obj
+ .debug_line    0x00005ca1      0x8d1 CMakeFiles/sensor_read_basic.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_line    0x00006572       0x7a CMakeFiles/sensor_read_basic.dir/Core/Startup/startup_stm32l4a6zgtx.s.obj
+ .debug_line    0x000065ec      0xc3c CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_line    0x00007228      0xdd4 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_line    0x00007ffc      0xc75 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_line    0x00008c71     0x3858 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .debug_line    0x0000c4c9      0x999 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
+ .debug_line    0x0000ce62     0x1424 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd.c.obj
+ .debug_line    0x0000e286      0xa39 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd_ex.c.obj
+ .debug_line    0x0000ecbf      0xa04 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj
+ .debug_line    0x0000f6c3      0xdf5 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_line    0x000104b8     0x11e6 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_line    0x0001169e     0x18cb CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .debug_line    0x00012f69     0x2e6c CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+ .debug_line    0x00015dd5     0x18ac CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_usb.c.obj
 
-.debug_str      0x00000000   0x102252
- .debug_str     0x00000000   0x102252 CMakeFiles/sensor_read_basic.dir/Core/Src/main.c.obj
-                              0xfa840 (size before relaxing)
- .debug_str     0x00102252     0x7e48 CMakeFiles/sensor_read_basic.dir/Core/Src/scd4x_i2c.c.obj
- .debug_str     0x00102252     0x767e CMakeFiles/sensor_read_basic.dir/Core/Src/sensirion_common.c.obj
- .debug_str     0x00102252     0x793a CMakeFiles/sensor_read_basic.dir/Core/Src/sensirion_i2c.c.obj
- .debug_str     0x00102252    0xf96ae CMakeFiles/sensor_read_basic.dir/Core/Src/sensirion_i2c_hal.c.obj
- .debug_str     0x00102252     0x7719 CMakeFiles/sensor_read_basic.dir/Core/Src/sgp41_i2c.c.obj
- .debug_str     0x00102252     0x7aba CMakeFiles/sensor_read_basic.dir/Core/Src/sht4x_i2c.c.obj
- .debug_str     0x00102252    0xf6dab CMakeFiles/sensor_read_basic.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_str     0x00102252    0xf5e33 CMakeFiles/sensor_read_basic.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_str     0x00102252     0x9985 CMakeFiles/sensor_read_basic.dir/Core/Src/syscalls.c.obj
- .debug_str     0x00102252     0x772f CMakeFiles/sensor_read_basic.dir/Core/Src/sysmem.c.obj
- .debug_str     0x00102252    0xf5d06 CMakeFiles/sensor_read_basic.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_str     0x00102252       0xa7 CMakeFiles/sensor_read_basic.dir/Core/Startup/startup_stm32l4a6zgtx.s.obj
- .debug_str     0x00102252    0xf6931 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_str     0x00102252    0xf65ef CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_str     0x00102252    0xf5e92 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_str     0x00102252    0xf6efa CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
- .debug_str     0x00102252    0xf6219 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
- .debug_str     0x00102252    0xf677a CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd.c.obj
- .debug_str     0x00102252    0xf6148 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd_ex.c.obj
- .debug_str     0x00102252    0xf607d CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj
- .debug_str     0x00102252    0xf6255 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_str     0x00102252    0xf6353 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_str     0x00102252    0xf6700 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_str     0x00102252    0xf6a5e CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
- .debug_str     0x00102252    0xf6434 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_usb.c.obj
+.debug_str      0x00000000   0x102a05
+ .debug_str     0x00000000   0x102a05 CMakeFiles/sensor_read_basic.dir/Core/Src/main.c.obj
+                              0xfa8d2 (size before relaxing)
+ .debug_str     0x00102a05     0x7eda CMakeFiles/sensor_read_basic.dir/Core/Src/scd4x_i2c.c.obj
+ .debug_str     0x00102a05     0x7710 CMakeFiles/sensor_read_basic.dir/Core/Src/sensirion_common.c.obj
+ .debug_str     0x00102a05     0x79cc CMakeFiles/sensor_read_basic.dir/Core/Src/sensirion_i2c.c.obj
+ .debug_str     0x00102a05    0xf9740 CMakeFiles/sensor_read_basic.dir/Core/Src/sensirion_i2c_hal.c.obj
+ .debug_str     0x00102a05     0x77ab CMakeFiles/sensor_read_basic.dir/Core/Src/sgp41_i2c.c.obj
+ .debug_str     0x00102a05     0x7b4c CMakeFiles/sensor_read_basic.dir/Core/Src/sht4x_i2c.c.obj
+ .debug_str     0x00102a05    0xf6e3d CMakeFiles/sensor_read_basic.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_str     0x00102a05    0xf5ec5 CMakeFiles/sensor_read_basic.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_str     0x00102a05     0x9a17 CMakeFiles/sensor_read_basic.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x00102a05     0x77c1 CMakeFiles/sensor_read_basic.dir/Core/Src/sysmem.c.obj
+ .debug_str     0x00102a05    0xf5d98 CMakeFiles/sensor_read_basic.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_str     0x00102a05      0x139 CMakeFiles/sensor_read_basic.dir/Core/Startup/startup_stm32l4a6zgtx.s.obj
+ .debug_str     0x00102a05    0xf69c3 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_str     0x00102a05    0xf6681 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_str     0x00102a05    0xf5f24 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_str     0x00102a05    0xf6f8c CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .debug_str     0x00102a05    0xf62ab CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
+ .debug_str     0x00102a05    0xf680c CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd.c.obj
+ .debug_str     0x00102a05    0xf61da CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd_ex.c.obj
+ .debug_str     0x00102a05    0xf610f CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj
+ .debug_str     0x00102a05    0xf62e7 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_str     0x00102a05    0xf63e5 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_str     0x00102a05    0xf6792 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .debug_str     0x00102a05    0xf6af0 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+ .debug_str     0x00102a05    0xf64c6 CMakeFiles/sensor_read_basic.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_usb.c.obj
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 CMakeFiles/sensor_read_basic.dir/Core/Src/main.c.obj
@@ -5744,6 +5744,6 @@ LOAD /opt/ST/STM32CubeCLT_1.21.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
  .debug_frame   0x0000616c       0x20 /opt/ST/STM32CubeCLT_1.21.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_unorddf2.o)
 
 .debug_line_str
-                0x00000000       0x8b
+                0x00000000      0x11d
  .debug_line_str
-                0x00000000       0x8b CMakeFiles/sensor_read_basic.dir/Core/Startup/startup_stm32l4a6zgtx.s.obj
+                0x00000000      0x11d CMakeFiles/sensor_read_basic.dir/Core/Startup/startup_stm32l4a6zgtx.s.obj
